@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "address_me"
   gem.require_paths = ["lib"]
   gem.version       = AddressMe::VERSION
+
+  gem.add_development_dependency("rspec")
+  gem.add_development_dependency("guard-rspec")
 end
